@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <title>Bonfire</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://assets.bonfireparty.win/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://assets.bonfireparty.win/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://assets.bonfireparty.win/favicon-16x16.png" />
+        <link rel="manifest" href="https://assets.bonfireparty.win/site.webmanifest" />
+        <meta name="description" content="Bonfire, a chat app reimagined" />
+        <meta content="https://assets.bonfireparty.win/bonfire.gif" property="og:image" />
+        <meta content="#2f3136" property="theme-color" name="theme-color" />
+        <link rel="stylesheet" href="https://assets.bonfireparty.win/style.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <script>
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/serviceworker.js");
+            }
+            window.location.href = "https://app.bonfireparty.win";
+        </script>
+    </body>
+</html>
